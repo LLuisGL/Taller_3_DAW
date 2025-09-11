@@ -33,6 +33,8 @@ loginForm.addEventListener("click", (e) => {
     <td>${id}</td>
     <td>${firstName.value}</td>
     <td>${lastName.value}</td>
+    <td>${country.value}</td>
+    <td>${check.checked ? "Sí" : "No"}</td>
   `;
 
   tableBody.appendChild(row);
